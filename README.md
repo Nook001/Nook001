@@ -57,11 +57,13 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🎨 Dynamic Shader
+### Dynamic Shader
 
 > 基于 HLSL 开发的自定义 Shader，为《星露谷物语》实现 **HD2D 风格** 渲染。
 
 ![Downloads](https://img.shields.io/badge/下载量-51,600+-6366F1?style=for-the-badge)
+![Endorsements](https://img.shields.io/badge/推荐数-500+-818CF8?style=for-the-badge)
+
 
 - 通过 **Harmony** 拦截游戏渲染管线，注入自定义 Shader 模拟 3D 光照系统
 - **GPU 加速**阴影渲染 + 双缓冲阴影收集队列，实现低开销全局阴影
@@ -98,56 +100,36 @@
 
 ## 💼 实习经验
 
-<details open>
 <summary><b><img src="assets/shopee.png" height="18" align="top"> &nbsp;数字银行后端开发 &nbsp;·&nbsp; Shopee &nbsp;·&nbsp; 深圳 &nbsp;·&nbsp; 2025/12 – 至今</b></summary>
-<br>
 
 - 开发**异步校验流水线**，实现每日借贷余额、贷款状态和流水的金额校验——多表关联分批过滤，按产品/状态/金额类型路由到对应校验器并上报监测平台。
 - 开发流水线节点，实现员工贷产品变更和 **Park 资金流水发生额生成**，通过 LA & LC 联调完成全链路测试。
 
-</details>
-
-<details open>
-<summary><b><img src="assets/cas.png" height="18" align="top"> &nbsp;分布式系统开发 &nbsp;·&nbsp; 中国科学院 软件研究所 &nbsp;·&nbsp; 远程办公 &nbsp;·&nbsp; 2026/01 – 至今</b></summary>
 <br>
+
+<summary><b><img src="assets/cas.png" height="18" align="top"> &nbsp;分布式系统开发 &nbsp;·&nbsp; 中国科学院 软件研究所 &nbsp;·&nbsp; 远程办公 &nbsp;·&nbsp; 2026/01 – 至今</b></summary>
 
 - 参与高性能分布式对象储存系统 **RustFS** 的功能开发与维护。
 
-</details>
-
-<details>
-<summary><b><img src="assets/oppo.png" height="18" align="top"> &nbsp;OpushSDK 推送系统 &nbsp;·&nbsp; OPPO &nbsp;·&nbsp; 深圳 &nbsp;·&nbsp; 2025/06 – 2025/09</b></summary>
 <br>
+
+<summary><b><img src="assets/oppo.png" height="18" align="top"> &nbsp;OpushSDK 推送系统 &nbsp;·&nbsp; OPPO &nbsp;·&nbsp; 深圳 &nbsp;·&nbsp; 2025/06 – 2025/09</b></summary>
+
 
 - 采用 **Intent-Filter 扫描**重构 SDK 自动化检测工具，解决第三方二次开发导致的组件名匹配失效问题，覆盖 **50+ 头部 App** 和系统级应用。
 - 修复 Push Demo 多线程并发请求堆积问题，简化/封装调试接口，加快三方开发者接入速度。
 
-</details>
-
-<details>
-<summary><b><img src="assets/jinji.png" height="18" align="top"> &nbsp;工业软件开发 &nbsp;·&nbsp; 金机智能装备 &nbsp;·&nbsp; 深圳 &nbsp;·&nbsp; 2024/07 – 2024/09</b></summary>
 <br>
+
+<summary><b><img src="assets/jinji.png" height="18" align="top"> &nbsp;工业软件开发 &nbsp;·&nbsp; 金机智能装备 &nbsp;·&nbsp; 深圳 &nbsp;·&nbsp; 2024/07 – 2024/09</b></summary>
 
 - 基于 JavaFX 集成 **Apache POI**，开发图纸文件自动分类、打包和检索工具——打包流程缩减 **80%**。
 - 主导 Java → Kotlin 迁移（5k → 3.8k 行），优化 IO 操作空安全处理。
 - 使用 **C++ 开发 Solidworks 插件**，用于检测图纸打孔情况。
 
-</details>
 
 <br>
 
-<!-- ═══════════════════════════════════════════════════ -->
-<!-- 教育经历 -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## 🎓 教育经历
-
-| | 学校 | 专业 | 时间 |
-|---|---|---|---|
-| <img src="assets/warwick.png" height="20"> | **英国华威大学**（QS 69） | 计算机科学 本科 · 2:1 | 2023/09 – 2027/06 |
-| <img src="assets/hkust.png" height="20"> | **香港科技大学**（QS 44） | 计算机工程 本科联培 · 前 20% | 2025/09 – 2026/06 |
-
-<br>
 
 <!-- ═══════════════════════════════════════════════════ -->
 <!-- 技术栈 -->
