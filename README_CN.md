@@ -44,7 +44,6 @@
 
 </div>
 
-<br>
 
 <!-- ═══════════════════════════════════════════════════ -->
 <!-- 实习经验 -->
@@ -52,35 +51,65 @@
 
 ## 💼 实习经验
 
-<summary><b><img src="assets/shopee.png" height="30" align="center"> &nbsp;数字银行后端开发 &nbsp;·&nbsp; Shopee &nbsp;·&nbsp; 深圳 &nbsp;·&nbsp; 2025/12 – 至今</b></summary>
+> <table>
+>   <tr>
+>     <td width="56" align="center" valign="middle">
+>       <img src="assets/shopee.png" height="46" alt="shopee-logo" />
+>     </td>
+>     <td valign="top">
+>       <b>数字银行后端开发 · Shopee · 深圳 · 2025/12 – 至今</b>
+>       <ul>
+>         <li>开发 <b>异步校验流水线</b>，实现每日借贷余额、贷款状态和流水的金额校验——多表关联分批过滤，按产品/状态/金额类型路由到对应校验器并上报监测平台。</li>
+>         <li>开发流水线节点，实现员工贷产品变更和 <b>Park 资金流水发生额生成</b>，通过 LA & LC 联调完成全链路测试。</li>
+>       </ul>
+>     </td>
+>   </tr>
+> </table>
 
-- 开发**异步校验流水线**，实现每日借贷余额、贷款状态和流水的金额校验——多表关联分批过滤，按产品/状态/金额类型路由到对应校验器并上报监测平台。
-- 开发流水线节点，实现员工贷产品变更和 **Park 资金流水发生额生成**，通过 LA & LC 联调完成全链路测试。
+> <table>
+>   <tr>
+>     <td width="56" align="center" valign="middle">
+>       <img src="assets/cas.png" height="" alt="cas-logo" />
+>     </td>
+>     <td valign="top">
+>       <b>分布式系统开发 · 中国科学院 软件研究所 · 远程办公 · 2026/01 – 至今</b>
+>       <ul>
+>         <li>参与高性能分布式对象储存系统 <b>RustFS</b> 的功能开发与维护。</li>
+>       </ul>
+>     </td>
+>   </tr>
+> </table>
 
-<br>
+> <table>
+>   <tr>
+>     <td width="56" align="center" valign="middle">
+>       <img src="assets/oppo.png" height="60" alt="oppo-logo" />
+>     </td>
+>     <td valign="top">
+>       <b>OpushSDK 推送系统 · OPPO · 深圳 · 2025/06 – 2025/09</b>
+>       <ul>
+>         <li>采用 <b>Intent-Filter 扫描</b>重构 SDK 自动化检测工具，解决第三方二次开发导致的组件名匹配失效问题，覆盖 <b>50+ 头部 App</b> 和系统级应用。</li>
+>         <li>修复 Push Demo 多线程并发请求堆积问题，简化/封装调试接口，加快三方开发者接入速度。</li>
+>       </ul>
+>     </td>
+>   </tr>
+> </table>
 
-<summary><b><img src="assets/cas.png" height="28" align="center"> &nbsp;分布式系统开发 &nbsp;·&nbsp; 中国科学院 软件研究所 &nbsp;·&nbsp; 远程办公 &nbsp;·&nbsp; 2026/01 – 至今</b></summary>
-
-- 参与高性能分布式对象储存系统 **RustFS** 的功能开发与维护。
-
-<br>
-
-<summary><b><img src="assets/oppo.png" height="40" align="center"> &nbsp;OpushSDK 推送系统 &nbsp;·&nbsp; OPPO &nbsp;·&nbsp; 深圳 &nbsp;·&nbsp; 2025/06 – 2025/09</b></summary>
-
-
-- 采用 **Intent-Filter 扫描**重构 SDK 自动化检测工具，解决第三方二次开发导致的组件名匹配失效问题，覆盖 **50+ 头部 App** 和系统级应用。
-- 修复 Push Demo 多线程并发请求堆积问题，简化/封装调试接口，加快三方开发者接入速度。
-
-<br>
-
-<summary><b>&nbsp;工业软件开发 &nbsp;·&nbsp; 金机智能装备 &nbsp;·&nbsp; 深圳 &nbsp;·&nbsp; 2024/07 – 2024/09</b></summary>
-
-- 基于 JavaFX 集成 **Apache POI**，开发图纸文件自动分类、打包和检索工具——打包流程缩减 **80%**。
-- 主导 Java → Kotlin 迁移（5k → 3.8k 行），优化 IO 操作空安全处理。
-- 使用 **C++ 开发 Solidworks 插件**，用于检测图纸打孔情况。
+> <table>
+>   <tr>
+>     <td width="56" align="center" valign="middle">🏭</td>
+>     <td valign="top">
+>       <b>工业软件开发 · 金机智能装备 · 深圳 · 2024/07 – 2024/09</b>
+>       <ul>
+>         <li>基于 JavaFX 集成 <b>Apache POI</b>，开发图纸文件自动分类、打包和检索工具——打包流程缩减 <b>80%</b>。</li>
+>         <li>主导 Java → Kotlin 迁移（5k → 3.8k 行），优化 IO 操作空安全处理。</li>
+>         <li>使用 <b>C++ 开发 Solidworks 插件</b>，用于检测图纸打孔情况。</li>
+>       </ul>
+>     </td>
+>   </tr>
+> </table>
 
 
-<br>
 
 <!-- ═══════════════════════════════════════════════════ -->
 <!-- 精选项目 -->
@@ -101,9 +130,8 @@
 
 
 - 通过 **Harmony** 拦截游戏渲染管线，注入自定义 Shader 模拟 3D 光照系统
-- **GPU 加速**阴影渲染 + 双缓冲阴影收集队列，实现低开销全局阴影
-- 自定义顶点/像素着色器：伪 3D 投影、接触硬化阴影、环境光色相偏移
-- **Dual Kawase** 模糊 + 降采样；双 Dict 纹理分类减少约 70% draw call
+- **GPU 加速**阴影渲染 + 双缓冲阴影收集队列，实现低开销全局阴影。LUT减少15M次数学计算，分离卷积核优化高斯模糊，双Dict纹理分类减少90% drawcall
+- **自定义顶点/像素着色器**：实现3D投影模拟、接触硬化阴影、环境光色相偏移、移轴效果
 
 `HLSL` `GPU Batching` `Harmony` `Shader`
 
@@ -140,31 +168,27 @@
 
 <div align="center">
 
-**核心 — 每天用于生产环境**
+**工作开发**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,go,cs,spring,mysql,redis,git&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,mysql,redis,git&theme=dark" />
 </a>
 
-**生产级 — 在实际项目中使用**
+**个人项目**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=kotlin,python,rabbitmq,unity,opengl,blender&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=go,python,cs,rabbitmq,flutter,unity,blender&theme=dark" />
 </a>
 
-**探索中 — 学习 & 个人项目**
+**探索中**
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=pytorch,flutter,tauri,unreal,haskell&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=pytorch,tauri,unreal,haskell&theme=dark" />
 </a>
 
 </div>
 
 > 其他技能: `HLSL` `JavaFX` `LangGraph` `MCP`
-
-**自然语言** &nbsp;
-![English](https://img.shields.io/badge/英语-工作熟练-6366F1?style=flat-square)
-![German](https://img.shields.io/badge/德语-阅读能力-818CF8?style=flat-square)
 
 <br>
 

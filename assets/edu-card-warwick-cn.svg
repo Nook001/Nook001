@@ -1,25 +1,25 @@
-<svg width="820" height="210" viewBox="0 0 820 210" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="820" height="260" viewBox="0 0 820 260" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="20" y1="12" x2="800" y2="198" gradientUnits="userSpaceOnUse">
+    <linearGradient id="bg" x1="20" y1="12" x2="800" y2="248" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#1E293B"/>
       <stop offset="1" stop-color="#334155"/>
     </linearGradient>
-    <linearGradient id="stroke" x1="20" y1="12" x2="800" y2="198" gradientUnits="userSpaceOnUse">
+    <linearGradient id="stroke" x1="20" y1="12" x2="800" y2="248" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#6366F1" stop-opacity="0.95"/>
       <stop offset="1" stop-color="#818CF8" stop-opacity="0.5"/>
     </linearGradient>
   </defs>
 
-  <rect x="12" y="12" width="796" height="186" rx="22" fill="url(#bg)"/>
-  <rect x="12.8" y="12.8" width="794.4" height="184.4" rx="21.2" stroke="url(#stroke)" stroke-width="1.6"/>
+  <rect x="12" y="12" width="796" height="236" rx="22" fill="url(#bg)"/>
+  <rect x="12.8" y="12.8" width="794.4" height="234.4" rx="21.2" stroke="url(#stroke)" stroke-width="1.6"/>
 
-  <rect x="36" y="57" width="96" height="96" rx="16" fill="#FFFFFF" fill-opacity="0.96"/>
-  <g transform="translate(42,84) scale(0.145)">
+  <rect x="36" y="78" width="96" height="96" rx="16" fill="#FFFFFF" fill-opacity="0.96"/>
+  <g transform="translate(42,105) scale(0.145)">
     <path fill="#000000" d="m582.93,338.63h12.35l-47.52-44.97,44.92-44.97h-11.83l-45.96,44.97,48.05,44.97Zm-61.35,0h8.58v-89.95h-8.58v89.95Zm-46.49-5.33c-24.05,0-39-17.28-39-39.64h0c0-22.36,14.95-39.84,39-39.84,9.24,0,20.67,4.32,27.17,13.98l7.02-5.21c-8.71-11.69-20.67-16.39-34.19-16.39-28.08,0-47.58,20.02-47.58,47.46s19.5,47.27,47.58,47.27c13.52,0,25.48-4.7,34.19-16.39l-7.02-5.21c-6.5,9.65-17.93,13.98-27.17,13.98m-71.29,5.33h8.58v-89.94h-8.58v89.94Zm-40.81,0l26.38-89.94h-8.84l-22.79,79.66-20.81-72.04h-11.72l-21.17,72.04-22.83-79.66h-8.84l26.38,89.94h10.53l21.8-72.42,21.39,72.42h10.53Zm-121.97-41.86c10.01-1.7,22.59-7.02,22.59-23.63,0-23.63-23.89-24.43-31.17-24.43h-25.77v89.94h8.53v-82.33h18.4c18.07,0,21.43,10.59,21.43,16.82s-3.49,16.75-21.43,16.81h-9.81v7.62h8.66l24.67,41.08h9.75l-25.85-41.87Zm-85.19-48.07h-8.07l-40.17,89.94h8.98l10.4-23.88h49.67l10.4,23.88h8.97l-40.17-89.94Zm-25.49,58.45l21.46-49.3,21.45,49.3h-42.91ZM0,248.71h8.84l22.84,79.66,21.57-72.04h10.92l21.21,72.04,22.79-79.66h8.84l-26.38,89.94h-10.53l-21.39-72.41-21.8,72.41h-10.53L0,248.71h8.84"/>
     <polygon fill="#3C1053" points="90.3 0 210 210 299.04 45.15 388.08 210 507.78 0 90.3 0"/>
   </g>
 
-  <text x="156" y="74" fill="#F1F5F9" font-size="34" font-weight="700" font-family="Inter, Segoe UI, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">英国华威大学</text>
-  <text x="156" y="121" fill="#C7D2FE" font-size="24" font-weight="500" font-family="Inter, Segoe UI, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">• 专业：计算机科学 本科</text>
-  <text x="156" y="158" fill="#E2E8F0" font-size="21" font-weight="500" font-family="Inter, Segoe UI, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">• 主修课程：线性规划、函数式编程、计算机安全、人工智能</text>
+  <text x="156" y="92" fill="#F1F5F9" font-size="38" font-weight="700" font-family="Inter, Segoe UI, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">英国华威大学</text>
+  <text x="156" y="145" fill="#C7D2FE" font-size="28" font-weight="500" font-family="Inter, Segoe UI, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">• 专业：计算机科学 本科</text>
+  <text x="156" y="195" fill="#E2E8F0" font-size="24" font-weight="500" font-family="Inter, Segoe UI, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">• 主修课程：线性规划、函数式编程、计算机安全、人工智能</text>
 </svg>
