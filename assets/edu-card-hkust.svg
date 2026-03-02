@@ -14,7 +14,7 @@
   <rect x="20.8" y="12.8" width="938.4" height="164.4" rx="21.2" stroke="url(#stroke)" stroke-width="1.6"/>
 
   <rect x="48" y="56" width="88" height="88" rx="14" fill="#FFFFFF" fill-opacity="0.95"/>
-  <image href="https://raw.githubusercontent.com/Nook001/Nook001/main/assets/hkust.png" x="60" y="68" width="64" height="64" preserveAspectRatio="xMidYMid meet"/>
+  <image href="./hkust.png" x="60" y="68" width="64" height="64" preserveAspectRatio="xMidYMid meet"/>
 
   <text x="170" y="66" fill="#E2E8F0" font-size="28" font-weight="700" font-family="Inter, Segoe UI, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">香港科技大学</text>
   <text x="170" y="104" fill="#C7D2FE" font-size="20" font-weight="500" font-family="Inter, Segoe UI, PingFang SC, Microsoft YaHei, Noto Sans CJK SC, sans-serif">• 专业：计算机与电子工程 本科联培</text>

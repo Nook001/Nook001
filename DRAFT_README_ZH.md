@@ -32,16 +32,11 @@
 
 <div align="center">
 
-<table>
-  <tr>
-    <td align="center" valign="top">
-      <img src="./assets/edu-card-warwick.png" width="470" alt="warwick-card" />
-    </td>
-    <td align="center" valign="top">
-      <img src="./assets/edu-card-hkust.png" width="470" alt="hkust-card" />
-    </td>
-  </tr>
-</table>
+<img src="./assets/edu-card-warwick.svg" width="980" alt="warwick-card" />
+
+<br>
+
+<img src="./assets/edu-card-hkust.svg" width="980" alt="hkust-card" />
 
 </div>
 
