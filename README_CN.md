@@ -54,13 +54,12 @@
 > <table>
 >   <tr>
 >     <td width="56" align="center" valign="middle">
->       <img src="assets/shopee.png" height="46" alt="shopee-logo" />
+>       <img src="assets/tencent.png" height="" alt="tencent-logo" />
 >     </td>
 >     <td valign="top">
->       <b>数字银行后端开发 · Shopee · 深圳 · 2025/12 – 至今</b>
+>       <b>解决方案架构师 · 腾讯 CSIG · 深圳 · 2026/04 – 至今</b>
 >       <ul>
->         <li>开发 <b>异步校验流水线</b>，实现每日借贷余额、贷款状态和流水的金额校验——多表关联分批过滤，按产品/状态/金额类型路由到对应校验器并上报监测平台。</li>
->         <li>开发流水线节点，实现员工贷产品变更和 <b>Park 资金流水发生额生成</b>，通过 LA & LC 联调完成全链路测试。</li>
+>         <li>为腾讯云音视频产品企业用户设计上云方案，并提供架构设计支持。</li>
 >       </ul>
 >     </td>
 >   </tr>
@@ -72,9 +71,26 @@
 >       <img src="assets/cas.png" height="" alt="cas-logo" />
 >     </td>
 >     <td valign="top">
->       <b>分布式系统开发 · 中国科学院 软件研究所 · 远程办公 · 2026/01 – 至今</b>
+>       <b>分布式系统开发 · 中国科学院 软研所 · 远程办公 · 2026/01 – 2026/04</b>
 >       <ul>
->         <li>参与高性能分布式对象储存系统 <b>RustFS</b> 的功能开发与维护。</li>
+>         <li>参与基于 <b>Rust</b> 重实现的 K8S 兼容容器编排系统 <b>rk8s</b> 的功能开发与维护。</li>
+>         <li>为 <b>rkforge</b> 镜像工具设计并实现完整的本地镜像管理子命令系统，支持导出合并 <b>manifest + config JSON</b> 的镜像元数据、从 OCI image layout tar 归档导入镜像、导出 OCI image layout 标准 tar 包，以及创建新的镜像标签引用。</li>
+>       </ul>
+>     </td>
+>   </tr>
+> </table>
+
+> <table>
+>   <tr>
+>     <td width="56" align="center" valign="middle">
+>       <img src="assets/shopee.png" height="46" alt="shopee-logo" />
+>     </td>
+>     <td valign="top">
+>       <b>后端开发 · Shopee 数字银行 · 深圳 · 2025/12 – 2026/04</b>
+>       <ul>
+>         <li>负责 Shopee 数字银行贷款产品化的后端开发，参与贷款账务链路的交易处理、资金流水生成与对账核查。</li>
+>         <li>扩展交易处理流水线节点，实现员工贷产品变更及对应流水发生额生成，通过跨系统联调造数覆盖完整交易流程并完成全链路测试。</li>
+>         <li>设计并实现余额/流水核对定时任务，按交易日与业务流水号分组校验借贷余额、贷款状态和流水金额，结合核算规则、金额一致性检查与 <b>Park</b> 资金特殊处理，自动发现账务异常并支撑核心系统 bug 定位。</li>
 >       </ul>
 >     </td>
 >   </tr>
@@ -86,7 +102,7 @@
 >       <img src="assets/oppo.png" height="60" alt="oppo-logo" />
 >     </td>
 >     <td valign="top">
->       <b>OpushSDK 推送系统 · OPPO · 深圳 · 2025/06 – 2025/09</b>
+>       <b>终端 SDK 开发 · OPPO · 深圳 · 2025/06 – 2025/09</b>
 >       <ul>
 >         <li>采用 <b>Intent-Filter 扫描</b>重构 SDK 自动化检测工具，解决第三方二次开发导致的组件名匹配失效问题，覆盖 <b>50+ 头部 App</b> 和系统级应用。</li>
 >         <li>修复 Push Demo 多线程并发请求堆积问题，简化/封装调试接口，加快三方开发者接入速度。</li>

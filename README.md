@@ -54,13 +54,12 @@
 > <table>
 >   <tr>
 >     <td width="56" align="center" valign="middle">
->       <img src="assets/shopee.png" height="46" alt="shopee-logo" />
+>       <img src="assets/tencent.png" height="46" alt="tencent-logo" />
 >     </td>
 >     <td valign="top">
->       <b>Digital Banking Backend Developer · Shopee · Shenzhen · 2025/12 – Present</b>
+>       <b>Solutions Architect · Tencent CSIG · Shenzhen · 2026/04 – Present</b>
 >       <ul>
->         <li>Developed an <b>async validation pipeline</b> for daily loan balance, status, and transaction amount reconciliation — multi-table batch filtering with routing to validators by product/status/amount type, reporting to the monitoring platform.</li>
->         <li>Built pipeline nodes for employee loan product changes and <b>Park fund transaction generation</b>, completing end-to-end testing via LA & LC joint debugging.</li>
+>         <li>Designed cloud migration solutions for enterprise users of Tencent Cloud audio and video products, and provided architecture design support.</li>
 >       </ul>
 >     </td>
 >   </tr>
@@ -72,9 +71,26 @@
 >       <img src="assets/cas.png" height="" alt="cas-logo" />
 >     </td>
 >     <td valign="top">
->       <b>Distributed Systems Developer · CAS ISCAS · Remote · 2026/01 – Present</b>
+>       <b>Distributed Systems Developer · Institute of Software, CAS · Remote · 2026/01 – 2026/04</b>
 >       <ul>
->         <li>Contributing to the development and maintenance of <b>RustFS</b>, a high-performance distributed object storage system.</li>
+>         <li>Contributed to the development and maintenance of <b>rk8s</b>, a K8S-compatible container orchestration system reimplemented in <b>Rust</b>.</li>
+>         <li>Designed and implemented a full local image management command suite for <b>rkforge</b>, including exporting merged <b>manifest + config JSON</b> metadata, importing images from OCI image layout tar archives, exporting OCI image layout tarballs, and creating new image tag references.</li>
+>       </ul>
+>     </td>
+>   </tr>
+> </table>
+
+> <table>
+>   <tr>
+>     <td width="56" align="center" valign="middle">
+>       <img src="assets/shopee.png" height="46" alt="shopee-logo" />
+>     </td>
+>     <td valign="top">
+>       <b>Backend Developer · Shopee Digital Banking · Shenzhen · 2025/12 – 2026/04</b>
+>       <ul>
+>         <li>Built backend features for Shopee Digital Banking loan productization, covering transaction processing, fund flow generation, and reconciliation across the loan accounting pipeline.</li>
+>         <li>Extended transaction pipeline nodes for employee loan changes and corresponding fund flow generation, then completed full end-to-end validation through cross-system debugging and test data construction.</li>
+>         <li>Designed and implemented scheduled balance and transaction reconciliation jobs that validate loan balances, statuses, and fund movements by trading day and business flow grouping, combining accounting rules, amount consistency checks, and special <b>Park</b> fund handling to surface accounting anomalies and help pinpoint core system bugs.</li>
 >       </ul>
 >     </td>
 >   </tr>
@@ -86,7 +102,7 @@
 >       <img src="assets/oppo.png" height="60" alt="oppo-logo" />
 >     </td>
 >     <td valign="top">
->       <b>OpushSDK Push System · OPPO · Shenzhen · 2025/06 – 2025/09</b>
+>       <b>Terminal SDK Developer · OPPO · Shenzhen · 2025/06 – 2025/09</b>
 >       <ul>
 >         <li>Refactored the SDK automated detection tool using <b>Intent-Filter scanning</b>, resolving component name matching failures caused by third-party redevelopment — covering <b>50+ top Apps</b> and system-level applications.</li>
 >         <li>Fixed Push Demo multi-thread concurrent request queuing issues, simplified/encapsulated debugging interfaces to accelerate third-party developer onboarding.</li>
