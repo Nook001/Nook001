@@ -11,7 +11,7 @@
 
 <h1>✦ Yuanzhi Liu ✦</h1>
 
-<img src="./assets/hero-card-en.svg" width="900" alt="hero-card" />
+<img src="./assets/cards/hero-card-en.svg" width="900" alt="hero-card" />
 
 <br>
 
@@ -34,10 +34,10 @@
 <table>
   <tr>
     <td align="center" valign="top" width="50%">
-      <img src="./assets/edu-card-warwick-en.svg" width="500" alt="warwick-card" />
+      <img src="./assets/cards/edu-card-warwick-en.svg" width="500" alt="warwick-card" />
     </td>
     <td align="center" valign="top" width="50%">
-      <img src="./assets/edu-card-hkust-en.svg" width="500" alt="hkust-card" />
+      <img src="./assets/cards/edu-card-hkust-en.svg" width="500" alt="hkust-card" />
     </td>
   </tr>
 </table>
@@ -51,80 +51,17 @@
 
 ## 💼 Work Experience
 
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/tencent.png" height="46" alt="tencent-logo" />
->     </td>
->     <td valign="top">
->       <b>Solutions Architect · Tencent CSIG · Shenzhen · 2026/04 – Present</b>
->       <ul>
->         <li>Designed cloud migration solutions for enterprise users of Tencent Cloud audio and video products, and provided architecture design support.</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
-
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/cas.png" height="" alt="cas-logo" />
->     </td>
->     <td valign="top">
->       <b>Distributed Systems Developer · Institute of Software, CAS · Remote · 2026/01 – 2026/04</b>
->       <ul>
->         <li>Contributed to the development and maintenance of <b>rk8s</b>, a K8S-compatible container orchestration system reimplemented in <b>Rust</b>.</li>
->         <li>Designed and implemented a full local image management command suite for <b>rkforge</b>, including exporting merged <b>manifest + config JSON</b> metadata, importing images from OCI image layout tar archives, exporting OCI image layout tarballs, and creating new image tag references.</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
-
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/shopee.png" height="46" alt="shopee-logo" />
->     </td>
->     <td valign="top">
->       <b>Backend Developer · Shopee Digital Banking · Shenzhen · 2025/12 – 2026/04</b>
->       <ul>
->         <li>Built backend features for Shopee Digital Banking loan productization, covering transaction processing, fund flow generation, and reconciliation across the loan accounting pipeline.</li>
->         <li>Extended transaction pipeline nodes for employee loan changes and corresponding fund flow generation, then completed full end-to-end validation through cross-system debugging and test data construction.</li>
->         <li>Designed and implemented scheduled balance and transaction reconciliation jobs that validate loan balances, statuses, and fund movements by trading day and business flow grouping, combining accounting rules, amount consistency checks, and special <b>Park</b> fund handling to surface accounting anomalies and help pinpoint core system bugs.</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
-
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/oppo.png" height="60" alt="oppo-logo" />
->     </td>
->     <td valign="top">
->       <b>Terminal SDK Developer · OPPO · Shenzhen · 2025/06 – 2025/09</b>
->       <ul>
->         <li>Refactored the SDK automated detection tool using <b>Intent-Filter scanning</b>, resolving component name matching failures caused by third-party redevelopment — covering <b>50+ top Apps</b> and system-level applications.</li>
->         <li>Fixed Push Demo multi-thread concurrent request queuing issues, simplified/encapsulated debugging interfaces to accelerate third-party developer onboarding.</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
-
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">🏭</td>
->     <td valign="top">
->       <b>Industrial Software Developer · Jinji Smart Equipment · Shenzhen · 2024/07 – 2024/09</b>
->       <ul>
->         <li>Integrated <b>Apache POI</b> with JavaFX to build an automated drawing file classification, packaging, and retrieval tool — reducing packaging workflow by <b>80%</b>.</li>
->         <li>Led Java → Kotlin migration (5k → 3.8k lines), improving null-safety handling for IO operations.</li>
->         <li>Developed a <b>C++ Solidworks plugin</b> for detecting hole-punching patterns in drawings.</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
-
+<div align="center">
+  <img src="./assets/cards/exp-card-en-tencent.svg" width="820" alt="exp-card-en-tencent" />
+  <br><br>
+  <img src="./assets/cards/exp-card-en-cas.svg" width="820" alt="exp-card-en-cas" />
+  <br><br>
+  <img src="./assets/cards/exp-card-en-shopee.svg" width="820" alt="exp-card-en-shopee" />
+  <br><br>
+  <img src="./assets/cards/exp-card-en-oppo.svg" width="820" alt="exp-card-en-oppo" />
+  <br><br>
+  <img src="./assets/cards/exp-card-en-jinji.svg" width="820" alt="exp-card-en-jinji" />
+</div>
 
 
 <!-- ═══════════════════════════════════════════════════ -->
