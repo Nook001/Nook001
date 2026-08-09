@@ -1,21 +1,42 @@
-<svg width="900" height="220" viewBox="0 0 900 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <title>Nook profile card</title>
+  <desc>Third-year computer science undergraduate focused on backend engineering, rendering, and solution architecture.</desc>
+
   <defs>
-    <linearGradient id="cardBg" x1="40" y1="20" x2="860" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#111827"/>
-      <stop offset="1" stop-color="#1F2937"/>
+    <linearGradient id="cardBg" x1="20" y1="20" x2="880" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="0.58" stop-color="#172554"/>
+      <stop offset="1" stop-color="#312E81"/>
     </linearGradient>
-    <linearGradient id="stroke" x1="40" y1="20" x2="860" y2="200" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#6366F1" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#818CF8" stop-opacity="0.5"/>
+    <linearGradient id="stroke" x1="20" y1="20" x2="880" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.55"/>
     </linearGradient>
+    <filter id="avatarShadow" x="620" y="24" width="260" height="260" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#020617" flood-opacity="0.36"/>
+    </filter>
+    <clipPath id="avatarClip">
+      <rect x="644" y="40" width="216" height="216" rx="28"/>
+    </clipPath>
   </defs>
 
-  <rect x="20" y="20" width="860" height="180" rx="26" fill="url(#cardBg)"/>
-  <rect x="20.8" y="20.8" width="858.4" height="178.4" rx="25.2" stroke="url(#stroke)" stroke-width="1.6"/>
+  <rect x="20" y="20" width="860" height="260" rx="30" fill="url(#cardBg)"/>
+  <rect x="20.8" y="20.8" width="858.4" height="258.4" rx="29.2" stroke="url(#stroke)" stroke-width="1.6"/>
 
-  <text x="450" y="78" text-anchor="middle" fill="#E5E7EB" font-size="24" font-weight="700" font-family="Inter, Segoe UI, sans-serif">Undergraduate · Backend Engineer · Shader Developer</text>
+  <circle cx="612" cy="61" r="72" fill="#38BDF8" fill-opacity="0.08"/>
+  <circle cx="849" cy="254" r="92" fill="#C084FC" fill-opacity="0.09"/>
 
-  <text x="450" y="122" text-anchor="middle" fill="#A5B4FC" font-size="14" font-weight="500" font-family="Fira Code, Inter, Segoe UI, monospace">Building reliable backends · Crafting high-performance rendering · Creating mods players love</text>
+  <g transform="translate(68 0)">
+    <text x="0" y="105" fill="#F8FAFC" font-size="42" font-weight="700" font-family="Segoe Print, Comic Sans MS, cursive">Hi, I'm Nook</text>
+    <text x="2" y="153" fill="#CBD5E1" font-size="20" font-weight="500" font-family="Inter, Segoe UI, sans-serif">3rd year undergraduate · Computer Science</text>
 
-  <text x="450" y="164" text-anchor="middle" fill="#CBD5E1" font-size="18" font-weight="500" font-family="Inter, Segoe UI, sans-serif">📍 Shenzhen, China / Coventry, UK  |  ✉️ nook_lyz@outlook.com</text>
+    <rect x="0" y="181" width="332" height="44" rx="14" fill="#0F172A" fill-opacity="0.5" stroke="#93C5FD" stroke-opacity="0.26"/>
+    <text x="18" y="210" fill="#BFDBFE" font-size="20" font-weight="600" font-family="Fira Code, Cascadia Code, monospace">Backend / Rendering / SA</text>
+  </g>
+
+  <g filter="url(#avatarShadow)">
+    <rect x="640" y="36" width="224" height="224" rx="32" fill="#FFFFFF"/>
+    <image href="twin-turbine.png" x="644" y="40" width="216" height="216" preserveAspectRatio="xMidYMid slice" clip-path="url(#avatarClip)"/>
+    <rect x="640.8" y="36.8" width="222.4" height="222.4" rx="31.2" stroke="#C4B5FD" stroke-width="1.6"/>
+  </g>
 </svg>

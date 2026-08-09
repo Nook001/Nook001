@@ -1,6 +1,6 @@
 <!-- 🌐 语言切换 -->
 <p align="right">
-  <a href="./README.md">English</a> | <a href="./README.zh-CN.md">简体中文</a>
+  <a href="./README.md">English</a> | <a href="./README_CN.md">简体中文</a>
 </p>
 
 <!-- ═══════════════════════════════════════════════════ -->
@@ -9,9 +9,7 @@
 
 <div align="center">
 
-<h1>✦ Yuanzhi Liu ✦</h1>
-
-<img src="./assets/hero-card-zh.svg" width="900" alt="hero-card" />
+<img src="./assets/hero-card-zh.svg" width="900" alt="Nook：本科三年级，方向为后端、渲染与解决方案架构" />
 
 <br>
 
@@ -27,22 +25,28 @@
 <!-- 学历卡片 -->
 <!-- ═══════════════════════════════════════════════════ -->
 
-<h2 align="center">🎓 教育经历</h2>
+## 🎓 教育经历
 
-<div align="center">
-
-<table>
+<table width="100%">
   <tr>
-    <td align="center" valign="top" width="50%">
-      <img src="./assets/edu-card-warwick-cn.svg" width="500" alt="warwick-card" />
+    <td valign="top" width="50%">
+      <strong>英国华威大学</strong><br>
+      <sub>计算机科学 本科 · 2023.09–2027.06</sub>
+      <ul>
+        <li>成绩：2:1</li>
+        <li>方向：函数式编程、计算机安全、人工智能</li>
+      </ul>
     </td>
-    <td align="center" valign="top" width="50%">
-      <img src="./assets/edu-card-hkust-cn.svg" width="500" alt="hkust-card" />
+    <td valign="top" width="50%">
+      <strong>香港科技大学</strong><br>
+      <sub>计算机工程 本科联培 · 2025.09–2026.06</sub>
+      <ul>
+        <li>深度学习、云计算、分布式系统</li>
+        <li>大规模机器学习系统、程序设计语言原理</li>
+      </ul>
     </td>
   </tr>
 </table>
-
-</div>
 
 
 <!-- ═══════════════════════════════════════════════════ -->
@@ -51,63 +55,50 @@
 
 ## 💼 实习经验
 
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/shopee.png" height="46" alt="shopee-logo" />
->     </td>
->     <td valign="top">
->       <b>数字银行后端开发 · Shopee · 深圳 · 2025/12 – 至今</b>
->       <ul>
->         <li>开发 <b>异步校验流水线</b>，实现每日借贷余额、贷款状态和流水的金额校验——多表关联分批过滤，按产品/状态/金额类型路由到对应校验器并上报监测平台。</li>
->         <li>开发流水线节点，实现员工贷产品变更和 <b>Park 资金流水发生额生成</b>，通过 LA & LC 联调完成全链路测试。</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%">
+      <strong>☁️ 腾讯 CSIG</strong><br>
+      <sub>解决方案架构师 · 深圳 · 2026.04–至今</sub>
+      <ul>
+        <li>开发 MPS POC Agent，将 MPS/COS 能力封装为 CLI，并实现参数校验、风险拦截、状态管理与可观测性。</li>
+        <li>基于 TypeScript/Bun 开发内部智能媒体工作台，覆盖异步任务调度、状态追踪和结果发布。</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <strong><img src="assets/cas.png" height="22" alt="cas-logo" /> 中国科学院软件研究所</strong><br>
+      <sub>分布式系统开发 · 线上 · 2026.01–2026.04</sub>
+      <ul>
+        <li>参与 K8s 兼容容器编排系统 <strong>rk8s</strong> 的功能开发与维护。</li>
+        <li>为 rkforge 实现 OCI 镜像导入、导出、元数据查看与标签管理。</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <strong><img src="assets/shopee.png" height="22" alt="shopee-logo" /> Shopee 数字银行</strong><br>
+      <sub>后端开发 · 深圳 · 2025.12–2026.04</sub>
+      <ul>
+        <li>开发贷款核算核心链路，处理产品转换、资金流水生成、日终核算与跨系统一致性校验。</li>
+        <li>构建分页并发核对任务与多层校验逻辑，约 5 分钟完成万级数据核对。</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <strong><img src="assets/oppo.png" height="22" alt="oppo-logo" /> OPPO</strong><br>
+      <sub>终端 SDK 开发 · 深圳 · 2025.06–2025.09</sub>
+      <ul>
+        <li>采用 Intent-Filter 扫描重构 SDK 检测工具，覆盖 50+ 头部 App 和系统应用。</li>
+        <li>修复 Push Demo 并发请求堆积问题，并封装调试接口。</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/cas.png" height="" alt="cas-logo" />
->     </td>
->     <td valign="top">
->       <b>分布式系统开发 · 中国科学院 软件研究所 · 远程办公 · 2026/01 – 至今</b>
->       <ul>
->         <li>参与高性能分布式对象储存系统 <b>RustFS</b> 的功能开发与维护。</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
-
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/oppo.png" height="60" alt="oppo-logo" />
->     </td>
->     <td valign="top">
->       <b>OpushSDK 推送系统 · OPPO · 深圳 · 2025/06 – 2025/09</b>
->       <ul>
->         <li>采用 <b>Intent-Filter 扫描</b>重构 SDK 自动化检测工具，解决第三方二次开发导致的组件名匹配失效问题，覆盖 <b>50+ 头部 App</b> 和系统级应用。</li>
->         <li>修复 Push Demo 多线程并发请求堆积问题，简化/封装调试接口，加快三方开发者接入速度。</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
-
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">🏭</td>
->     <td valign="top">
->       <b>工业软件开发 · 金机智能装备 · 深圳 · 2024/07 – 2024/09</b>
->       <ul>
->         <li>基于 JavaFX 集成 <b>Apache POI</b>，开发图纸文件自动分类、打包和检索工具——打包流程缩减 <b>80%</b>。</li>
->         <li>主导 Java → Kotlin 迁移（5k → 3.8k 行），优化 IO 操作空安全处理。</li>
->         <li>使用 <b>C++ 开发 Solidworks 插件</b>，用于检测图纸打孔情况。</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
+<details>
+  <summary><strong>更早经历：金机智能装备 · 工业软件开发</strong></summary>
+  <br>
+  基于 JavaFX 与 Apache POI 开发图纸自动分类、打包和检索工具，将流程耗时缩减 80%；参与 Java → Kotlin 迁移，并使用 C++ 开发 SolidWorks 图纸检测插件。
+</details>
 
 
 
@@ -125,7 +116,7 @@
 
 > 基于 HLSL 开发的自定义 Shader，为《星露谷物语》实现 **HD2D 风格** 渲染。
 
-![Downloads](https://img.shields.io/badge/下载量-51,600+-6366F1?style=for-the-badge)
+![Downloads](https://img.shields.io/badge/下载量-155,800+-6366F1?style=for-the-badge)
 ![Endorsements](https://img.shields.io/badge/推荐数-500+-818CF8?style=for-the-badge)
 
 

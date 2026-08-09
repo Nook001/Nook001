@@ -9,9 +9,7 @@
 
 <div align="center">
 
-<h1>✦ Yuanzhi Liu ✦</h1>
-
-<img src="./assets/hero-card-en.svg" width="900" alt="hero-card" />
+<img src="./assets/hero-card-en.svg" width="900" alt="Nook: third-year undergraduate focused on backend, rendering, and solution architecture" />
 
 <br>
 
@@ -27,22 +25,28 @@
 <!-- Education Cards -->
 <!-- ═══════════════════════════════════════════════════ -->
 
-<h2 align="center">🎓 Education</h2>
+## 🎓 Education
 
-<div align="center">
-
-<table>
+<table width="100%">
   <tr>
-    <td align="center" valign="top" width="50%">
-      <img src="./assets/edu-card-warwick-en.svg" width="500" alt="warwick-card" />
+    <td valign="top" width="50%">
+      <strong>University of Warwick</strong><br>
+      <sub>BSc Computer Science · Sep 2023–Jun 2027</sub>
+      <ul>
+        <li>Current classification: 2:1</li>
+        <li>Functional programming, computer security, AI</li>
+      </ul>
     </td>
-    <td align="center" valign="top" width="50%">
-      <img src="./assets/edu-card-hkust-en.svg" width="500" alt="hkust-card" />
+    <td valign="top" width="50%">
+      <strong>Hong Kong University of Science and Technology</strong><br>
+      <sub>Computer Engineering Exchange · Sep 2025–Jun 2026</sub>
+      <ul>
+        <li>Deep learning, cloud computing, distributed systems</li>
+        <li>Large-scale ML systems and programming languages</li>
+      </ul>
     </td>
   </tr>
 </table>
-
-</div>
 
 
 <!-- ═══════════════════════════════════════════════════ -->
@@ -51,63 +55,50 @@
 
 ## 💼 Work Experience
 
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/shopee.png" height="46" alt="shopee-logo" />
->     </td>
->     <td valign="top">
->       <b>Digital Banking Backend Developer · Shopee · Shenzhen · 2025/12 – Present</b>
->       <ul>
->         <li>Developed an <b>async validation pipeline</b> for daily loan balance, status, and transaction amount reconciliation — multi-table batch filtering with routing to validators by product/status/amount type, reporting to the monitoring platform.</li>
->         <li>Built pipeline nodes for employee loan product changes and <b>Park fund transaction generation</b>, completing end-to-end testing via LA & LC joint debugging.</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%">
+      <strong>☁️ Tencent CSIG</strong><br>
+      <sub>Solution Architect · Shenzhen · Apr 2026–Present</sub>
+      <ul>
+        <li>Built an MPS POC Agent with CLI-based MPS/COS tools, parameter validation, risk controls, state management, and observability.</li>
+        <li>Developed an internal media workbench with TypeScript/Bun for asynchronous jobs, state tracking, and result publishing.</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <strong><img src="assets/cas.png" height="22" alt="cas-logo" /> ISCAS</strong><br>
+      <sub>Distributed Systems Developer · Remote · Jan–Apr 2026</sub>
+      <ul>
+        <li>Contributed to <strong>rk8s</strong>, a K8s-compatible container orchestration system.</li>
+        <li>Implemented OCI image import, export, metadata inspection, and tag management for rkforge.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <strong><img src="assets/shopee.png" height="22" alt="shopee-logo" /> Shopee Digital Bank</strong><br>
+      <sub>Backend Developer · Shenzhen · Dec 2025–Apr 2026</sub>
+      <ul>
+        <li>Developed core loan-accounting flows for product conversion, transaction generation, daily accounting, and cross-system reconciliation.</li>
+        <li>Built paginated concurrent checks and layered validation, reconciling tens of thousands of records in about five minutes.</li>
+      </ul>
+    </td>
+    <td valign="top" width="50%">
+      <strong><img src="assets/oppo.png" height="22" alt="oppo-logo" /> OPPO</strong><br>
+      <sub>Device SDK Developer · Shenzhen · Jun–Sep 2025</sub>
+      <ul>
+        <li>Reworked SDK detection around Intent-Filter scanning, covering 50+ major apps and system applications.</li>
+        <li>Fixed concurrent request queuing in Push Demo and simplified debugging interfaces.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/cas.png" height="" alt="cas-logo" />
->     </td>
->     <td valign="top">
->       <b>Distributed Systems Developer · CAS ISCAS · Remote · 2026/01 – Present</b>
->       <ul>
->         <li>Contributing to the development and maintenance of <b>RustFS</b>, a high-performance distributed object storage system.</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
-
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">
->       <img src="assets/oppo.png" height="60" alt="oppo-logo" />
->     </td>
->     <td valign="top">
->       <b>OpushSDK Push System · OPPO · Shenzhen · 2025/06 – 2025/09</b>
->       <ul>
->         <li>Refactored the SDK automated detection tool using <b>Intent-Filter scanning</b>, resolving component name matching failures caused by third-party redevelopment — covering <b>50+ top Apps</b> and system-level applications.</li>
->         <li>Fixed Push Demo multi-thread concurrent request queuing issues, simplified/encapsulated debugging interfaces to accelerate third-party developer onboarding.</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
-
-> <table>
->   <tr>
->     <td width="56" align="center" valign="middle">🏭</td>
->     <td valign="top">
->       <b>Industrial Software Developer · Jinji Smart Equipment · Shenzhen · 2024/07 – 2024/09</b>
->       <ul>
->         <li>Integrated <b>Apache POI</b> with JavaFX to build an automated drawing file classification, packaging, and retrieval tool — reducing packaging workflow by <b>80%</b>.</li>
->         <li>Led Java → Kotlin migration (5k → 3.8k lines), improving null-safety handling for IO operations.</li>
->         <li>Developed a <b>C++ Solidworks plugin</b> for detecting hole-punching patterns in drawings.</li>
->       </ul>
->     </td>
->   </tr>
-> </table>
+<details>
+  <summary><strong>Earlier: Jinji Smart Equipment · Industrial Software Developer</strong></summary>
+  <br>
+  Built a JavaFX and Apache POI drawing workflow that reduced processing time by 80%; contributed to a Java → Kotlin migration and developed a C++ SolidWorks drawing inspection plugin.
+</details>
 
 
 
@@ -125,7 +116,7 @@
 
 > A custom HLSL shader bringing **HD2D-style** rendering to Stardew Valley.
 
-![Downloads](https://img.shields.io/badge/Downloads-51,600+-6366F1?style=for-the-badge)
+![Downloads](https://img.shields.io/badge/Downloads-155,800+-6366F1?style=for-the-badge)
 ![Endorsements](https://img.shields.io/badge/Endorsements-500+-818CF8?style=for-the-badge)
 
 
