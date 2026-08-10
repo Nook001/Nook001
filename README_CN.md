@@ -50,6 +50,44 @@
 
 
 <!-- ═══════════════════════════════════════════════════ -->
+<!-- 技术栈 -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+## 🛠️ 技术栈
+
+<div align="center">
+
+**生产开发**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,mysql,redis,rabbitmq&theme=dark" />
+</a>
+
+**项目与研究**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=go,cs,flutter,unity,godot,pytorch,haskell&theme=dark" />
+</a>
+
+</div>
+
+> 核心能力：`状态机与事务边界` `异步任务队列` `跨系统一致性` `Agent Tooling` `OCI / K8s` `GPU Profiling` `Shader Pipeline`
+
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- 自我介绍 -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+## 👋 关于我
+
+计算机科学本科生，技术经历集中在生产级 Agent 工具链、分布式与异步后端以及实时图形渲染。关注的核心问题是如何让复杂链路在真实约束下保持**可验证、可恢复和可观测**，而不仅是完成业务功能。
+
+- **Agent / 后端**：通过自描述 CLI、参数约束、安全 Hook 与强状态返回收敛 LLM 的工具调用；使用事务、状态机、持久化队列与并发 Worker 管理异步任务生命周期。
+- **分布式 / 数据一致性**：参与 K8s 兼容编排与 OCI 镜像工具开发，并在贷款核算场景中处理跨系统、跨表及特殊资金流水的一致性校验。
+- **图形 / 性能**：基于 GPU Profiling 优化渲染顺序、RenderTarget 生命周期、模糊卷积与纹理分类，以量化指标验证性能收益。
+
+
+<!-- ═══════════════════════════════════════════════════ -->
 <!-- 实习经验 -->
 <!-- ═══════════════════════════════════════════════════ -->
 
@@ -58,37 +96,37 @@
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
-      <strong>☁️ 腾讯 CSIG</strong><br>
-      <sub>解决方案架构师 · 深圳 · 2026.04–至今</sub>
+      <strong><img src="assets/tencent.png" height="18" alt="腾讯" /> 腾讯 </strong><br>
+      <sub>解决方案架构师 · 2026.04–至今</sub>
       <ul>
-        <li>开发 MPS POC Agent，将 MPS/COS 能力封装为 CLI，并实现参数校验、风险拦截、状态管理与可观测性。</li>
-        <li>基于 TypeScript/Bun 开发内部智能媒体工作台，覆盖异步任务调度、状态追踪和结果发布。</li>
+        <li>设计面向 LLM 的自描述 CLI 协议，将参数校验、互斥约束、密钥脱敏与风险操作参数哈希下沉工具层；通过 <code>next_action</code> 强状态返回驱动 Agent 按固定生命周期执行。GLM 5.1 多轮测试中输出速度由 30–45 提升至 95–120 token/s，深度思考降至约 1/3，目录探索和重复/错误调用清零。</li>
+        <li>基于 TypeScript/Bun/Express/SQLite WAL 开发全栈智能媒体工作台；以 <code>BEGIN IMMEDIATE</code> 原子化配额检查与任务入队，通过 QUEUED→SUBMITTING→PROCESSING→DONE 状态机、原子领取、限流、重试和并发 Worker 实现宕机后可恢复的异步任务链路。</li>
       </ul>
     </td>
     <td valign="top" width="50%">
-      <strong><img src="assets/cas.png" height="22" alt="cas-logo" /> 中国科学院软件研究所</strong><br>
+      <strong><img src="assets/cas.png" height="24" alt="中国科学院软件研究所" /> 中科院 </strong><br>
       <sub>分布式系统开发 · 线上 · 2026.01–2026.04</sub>
       <ul>
-        <li>参与 K8s 兼容容器编排系统 <strong>rk8s</strong> 的功能开发与维护。</li>
-        <li>为 rkforge 实现 OCI 镜像导入、导出、元数据查看与标签管理。</li>
+        <li>参与基于 Rust 重实现的 K8s 兼容容器编排系统 <strong>rk8s</strong> 的功能开发与维护。</li>
+        <li>为 rkforge 构建本地镜像管理子命令：合并输出 manifest/config 元数据，从 OCI Image Layout tar 导入/导出镜像，并维护镜像标签引用。</li>
       </ul>
     </td>
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <strong><img src="assets/shopee.png" height="22" alt="shopee-logo" /> Shopee 数字银行</strong><br>
+      <strong><img src="assets/shopee.png" height="30" alt="Shopee" /> Shopee </strong><br>
       <sub>后端开发 · 深圳 · 2025.12–2026.04</sub>
       <ul>
-        <li>开发贷款核算核心链路，处理产品转换、资金流水生成、日终核算与跨系统一致性校验。</li>
-        <li>构建分页并发核对任务与多层校验逻辑，约 5 分钟完成万级数据核对。</li>
+        <li>负责贷款核算核心链路：消费 Loan Core 交易事件，完成贷款产品转换、转入/转出流水发生额生成、Park 类资金边界处理和日终核算。</li>
+        <li>设计分页并发核对任务，先过滤近期活跃借据再关联 LA/LC 多表数据；分层执行表内自洽、跨表期次/交易和跨系统金额校验，约 5 分钟完成万级记录核对，并将异常自动落库、告警。</li>
       </ul>
     </td>
     <td valign="top" width="50%">
-      <strong><img src="assets/oppo.png" height="22" alt="oppo-logo" /> OPPO</strong><br>
+      <strong><img src="assets/oppo.png" height="20" alt="OPPO" /> OPPO </strong><br>
       <sub>终端 SDK 开发 · 深圳 · 2025.06–2025.09</sub>
       <ul>
-        <li>采用 Intent-Filter 扫描重构 SDK 检测工具，覆盖 50+ 头部 App 和系统应用。</li>
-        <li>修复 Push Demo 并发请求堆积问题，并封装调试接口。</li>
+        <li>以 Intent-Filter 扫描替代组件名匹配，解决第三方二次开发导致的 SDK 组件识别失效，覆盖 50+ 头部 App 和系统应用。</li>
+        <li>定位并修复 Push Demo 多线程管理不当造成的网络请求堆积，同时封装调试接口以缩短第三方接入链路。</li>
       </ul>
     </td>
   </tr>
@@ -120,9 +158,9 @@
 ![Endorsements](https://img.shields.io/badge/推荐数-500+-818CF8?style=for-the-badge)
 
 
-- 通过 **Harmony** 拦截游戏渲染管线，注入自定义 Shader 模拟 3D 光照系统
-- **GPU 加速**阴影渲染 + 双缓冲阴影收集队列，实现低开销全局阴影。LUT减少15M次数学计算，分离卷积核优化高斯模糊，双Dict纹理分类减少90% drawcall
-- **自定义顶点/像素着色器**：实现3D投影模拟、接触硬化阴影、环境光色相偏移、移轴效果
+- 通过 **Harmony** 重排游戏渲染管线并注入顶点/像素着色器，实现 3D 投影模拟、接触硬化阴影、环境光色相偏移与移轴效果
+- 构建 GPU 加速的双缓冲阴影收集与 RenderTarget 预渲染链路；使用 LUT、分离卷积、Dual Kawase 与降采样降低约 **87%** 模糊计算复杂度，缓存有效像素轮廓减少约 **80%** Alpha Clip 采样耗时
+- 基于 **Intel GPA** 帧分析重排渲染顺序、复用 RenderTarget 并按纹理分类批处理，降低约 **72% XVE Stall** 和 **82% Draw Call**；使用等值数学计算替代 Shader 分支以提高 GPU 并行度
 
 `HLSL` `GPU Batching` `Harmony` `Shader`
 
@@ -136,9 +174,9 @@
 ![Downloads](https://img.shields.io/badge/下载量-12,700+-6366F1?style=for-the-badge)
 ![Endorsements](https://img.shields.io/badge/推荐数-190+-818CF8?style=for-the-badge)
 
-- 通过**反射注入**代码，重写并扩展游戏核心方法
-- 解决**多人模式下的数据一致性**问题
-- 优化大范围自动化逻辑的计算开销，确保游戏帧率稳定
+- 使用 **Harmony Patch + 反射注入**扩展游戏核心方法，将建筑升级规则与原版流程解耦
+- 处理多人模式下的状态同步与数据一致性边界，避免客户端间升级结果分叉
+- 收敛大范围自动化逻辑中的重复扫描与计算，保持复杂存档下的帧率稳定
 
 `C#` `SMAPI` `Harmony`
 
@@ -148,82 +186,19 @@
 
 <br>
 
-
-
-
-<!-- ═══════════════════════════════════════════════════ -->
-<!-- 技术栈 -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## 🛠️ 技术栈
-
-<div align="center">
-
-**工作开发**
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,mysql,redis,git&theme=dark" />
-</a>
-
-**个人项目**
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=go,python,cs,rabbitmq,flutter,unity,blender&theme=dark" />
-</a>
-
-**探索中**
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=pytorch,tauri,unreal,haskell&theme=dark" />
-</a>
-
-</div>
-
-> 其他技能: `HLSL` `JavaFX` `LangGraph` `MCP`
-
-<br>
-
-<!-- ═══════════════════════════════════════════════════ -->
-<!-- 社区与活动 -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## 📜 其他活动
-
-- 🎮 腾讯 IEG 开局一课 游戏客户端（UE）方向证书
-- 🌐 通过 Localizor 为独立游戏 *Big Ambitions* 和 *Supermarket Simulator* 提供中文翻译
-- ✍️ 在《小黑盒》发布 Mod 开发文章，累计 **61,900+** 阅读量
-- 🌿 在 Warwick Nature Conservation 担任志愿者，参与环境保护超过 **30 小时**
-
-<br>
-
 <!-- ═══════════════════════════════════════════════════ -->
 <!-- FOOTER -->
 <!-- ═══════════════════════════════════════════════════ -->
 
 <!-- ═══════════════════════════════════════════════════ -->
-<!-- GITHUB 数据 -->
+<!-- GITHUB 活跃度 -->
 <!-- ═══════════════════════════════════════════════════ -->
 
-<h2 align="center">📊 GitHub 数据</h2>
+<h2 align="center">📈 GitHub 活跃度</h2>
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nook001&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=818CF8&text_color=C9D1D9&locale=cn&rank_icon=github)
-&nbsp;
 ![Streak](https://streak-stats.demolab.com?user=Nook001&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=818CF8&currStreakLabel=C9D1D9)
-
-</div>
-
-<div align="center">
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nook001&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9&locale=cn)
-
-</div>
-
-<!-- 奖杯 -->
-<div align="center">
-
-![Trophy](https://github-profile-trophy.vercel.app/?username=Nook001&theme=discord&no-frame=true&no-bg=true&column=7)
 
 </div>
 

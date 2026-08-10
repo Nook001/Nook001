@@ -50,6 +50,40 @@
 
 
 <!-- ═══════════════════════════════════════════════════ -->
+<!-- Tech Stack -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+**Production**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,mysql,redis,rabbitmq&theme=dark" />
+</a>
+
+**Projects & Research**
+
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=go,cs,flutter,unity,godot,pytorch,haskell&theme=dark" />
+</a>
+
+</div>
+
+> Also: `HLSL` `JavaFX` `TypeScript / Bun` `LangGraph` `MCP`
+
+
+<!-- ═══════════════════════════════════════════════════ -->
+<!-- About -->
+<!-- ═══════════════════════════════════════════════════ -->
+
+## 👋 About Me
+
+Computer Science undergraduate with experience across backend systems, solution architecture, and real-time rendering. Currently focused on production agent tooling, distributed and asynchronous workflows, and GPU rendering optimisation; personal projects centre on Stardew Valley modding and graphics pipeline development.
+
+
+<!-- ═══════════════════════════════════════════════════ -->
 <!-- Work Experience -->
 <!-- ═══════════════════════════════════════════════════ -->
 
@@ -58,7 +92,7 @@
 <table width="100%">
   <tr>
     <td valign="top" width="50%">
-      <strong>☁️ Tencent CSIG</strong><br>
+      <strong><img src="assets/tencent.png" height="18" alt="Tencent" /> — CSIG</strong><br>
       <sub>Solution Architect · Shenzhen · Apr 2026–Present</sub>
       <ul>
         <li>Built an MPS POC Agent with CLI-based MPS/COS tools, parameter validation, risk controls, state management, and observability.</li>
@@ -66,7 +100,7 @@
       </ul>
     </td>
     <td valign="top" width="50%">
-      <strong><img src="assets/cas.png" height="22" alt="cas-logo" /> ISCAS</strong><br>
+      <strong><img src="assets/cas.png" height="24" alt="ISCAS" /></strong><br>
       <sub>Distributed Systems Developer · Remote · Jan–Apr 2026</sub>
       <ul>
         <li>Contributed to <strong>rk8s</strong>, a K8s-compatible container orchestration system.</li>
@@ -76,7 +110,7 @@
   </tr>
   <tr>
     <td valign="top" width="50%">
-      <strong><img src="assets/shopee.png" height="22" alt="shopee-logo" /> Shopee Digital Bank</strong><br>
+      <strong><img src="assets/shopee.png" height="30" alt="Shopee" /> Shopee — Digital Bank</strong><br>
       <sub>Backend Developer · Shenzhen · Dec 2025–Apr 2026</sub>
       <ul>
         <li>Developed core loan-accounting flows for product conversion, transaction generation, daily accounting, and cross-system reconciliation.</li>
@@ -84,7 +118,7 @@
       </ul>
     </td>
     <td valign="top" width="50%">
-      <strong><img src="assets/oppo.png" height="22" alt="oppo-logo" /> OPPO</strong><br>
+      <strong><img src="assets/oppo.png" height="20" alt="OPPO" /></strong><br>
       <sub>Device SDK Developer · Shenzhen · Jun–Sep 2025</sub>
       <ul>
         <li>Reworked SDK detection around Intent-Filter scanning, covering 50+ major apps and system applications.</li>
@@ -152,38 +186,6 @@
 
 
 <!-- ═══════════════════════════════════════════════════ -->
-<!-- Tech Stack -->
-<!-- ═══════════════════════════════════════════════════ -->
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Work & Production**
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=java,kotlin,spring,mysql,redis,git&theme=dark" />
-</a>
-
-**Personal Projects**
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=go,python,cs,rabbitmq,flutter,unity,blender&theme=dark" />
-</a>
-
-**Exploring**
-
-<a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=pytorch,tauri,unreal,haskell&theme=dark" />
-</a>
-
-</div>
-
-> Other skills: `HLSL` `JavaFX` `LangGraph` `MCP`
-
-<br>
-
-<!-- ═══════════════════════════════════════════════════ -->
 <!-- Community & Activities -->
 <!-- ═══════════════════════════════════════════════════ -->
 
@@ -197,29 +199,14 @@
 <br>
 
 <!-- ═══════════════════════════════════════════════════ -->
-<!-- GitHub Stats -->
+<!-- GitHub Activity -->
 <!-- ═══════════════════════════════════════════════════ -->
 
-<h2 align="center">📊 GitHub Stats</h2>
+<h2 align="center">📈 GitHub Activity</h2>
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Nook001&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=818CF8&text_color=C9D1D9&rank_icon=github)
-&nbsp;
 ![Streak](https://streak-stats.demolab.com?user=Nook001&theme=tokyonight&hide_border=true&background=0D1117&ring=6366F1&fire=818CF8&currStreakLabel=C9D1D9)
-
-</div>
-
-<div align="center">
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nook001&layout=donut&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9)
-
-</div>
-
-<!-- Trophies -->
-<div align="center">
-
-![Trophy](https://github-profile-trophy.vercel.app/?username=Nook001&theme=discord&no-frame=true&no-bg=true&column=7)
 
 </div>
 
