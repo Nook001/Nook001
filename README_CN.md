@@ -1,6 +1,7 @@
 <p align="right"><a href="./README.md">English</a> · <a href="./README_CN.md">简体中文</a></p>
 
-<a href="https://nook001.github.io/"><img src="./assets/profile-hero-zh-v3.svg" width="100%" alt="Nook — 访问 nook001.github.io" /></a>
+<img src="./assets/profile-hero-zh-v4.svg" width="100%" alt="Nook — Warwick CS，HKUST 交换" />
+<a href="https://nook001.github.io/"><img src="./assets/profile-cta-zh.svg" width="100%" alt="访问 Nook's Corner — 想法、实验和经验" /></a>
 <img src="./assets/profile-experience-zh-v2.svg" width="100%" alt="经历：HKUST(GZ) 研究助理（2026.09–至今）；腾讯（2026.04–08）；中科院软件所（2026.01–04）；Shopee（2025.12–2026.04）；OPPO（2025.06–09）。" />
 
 ### 精选项目
