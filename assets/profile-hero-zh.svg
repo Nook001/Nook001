@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="220" viewBox="0 0 960 220" role="img" aria-labelledby="title desc">
+  <title id="title">Nook — 刘远志</title>
+  <desc id="desc">华威大学计算机科学，香港科技大学交换。访问 nook001.github.io。</desc>
+  <rect x="1" y="1" width="958" height="218" rx="18" fill="#15191D" stroke="#46413E" stroke-width="2"/>
+  <rect x="36" y="43" width="4" height="134" rx="2" fill="#C28C70"/>
+  <g font-family="Inter, Noto Sans CJK SC, Microsoft YaHei, Segoe UI, Arial, sans-serif">
+    <text x="68" y="92" fill="#F5F3EF" font-size="48" font-weight="700">Nook.</text>
+    <text x="68" y="128" fill="#D4D0CA" font-size="19">刘远志 · 华威大学计算机科学 · 香港科技大学交换</text>
+    <text x="68" y="163" fill="#AFA9A1" font-size="19">系统 · 图形 · AI</text>
+    <rect x="664" y="73" width="248" height="70" rx="12" fill="#C28C70"/>
+    <text x="692" y="115" fill="#15191D" font-size="23" font-weight="700">访问我的个人网站</text>
+    <path d="M877 105h16m0 0v-16m0 16-17-17" fill="none" stroke="#15191D" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="692" y="167" fill="#B9B1AA" font-size="16">作品 · 项目 · 博客</text>
+  </g>
+</svg>
