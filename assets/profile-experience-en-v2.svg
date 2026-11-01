@@ -2,7 +2,7 @@
 <title>Experience</title>
 <rect width="900" height="452" rx="12" fill="#101011"/>
 <g font-family="Inter, Noto Sans CJK SC, Microsoft YaHei, Arial, sans-serif">
-<text x="16" y="42" fill="#F4F4F5" font-size="24" font-weight="700">Experience</text>
+<g fill="none" stroke="#A9AAA9" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="25" width="23" height="17" rx="3"/><path d="M23 25v-4a2 2 0 0 1 2-2h5a2 2 0 0 1 2 2v4M16 33h23"/></g><text x="50" y="42" fill="#F4F4F5" font-size="24" font-weight="700">Experience</text>
 <rect x="30" y="75" width="43" height="43" rx="10" fill="#252528"/><image href="data:image/x-icon;base64,AAABAAYAAAAAAAEAIAAZRQAAZgAAAICAAAABACAAKAgBAH9FAABAQAAAAQAg
 AChCAACnTQEAMDAAAAEAIACoJQAAz48BACAgAAABACAAqBAAAHe1AQAQEAAA
 AQAgAGgEAAAfxgEAiVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhm
