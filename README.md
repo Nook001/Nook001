@@ -1,6 +1,6 @@
 <p align="right"><a href="./README.md">English</a> · <a href="./README_CN.md">简体中文</a></p>
 
-<a href="https://nook001.github.io/"><img src="./assets/profile-hero-en.svg" width="100%" alt="Hi, I'm Nook. Explore my website." /></a>
+<a href="https://nook001.github.io/"><img src="./assets/profile-hero-en-v2.svg" width="100%" alt="Hi, I'm Nook. Explore my website." /></a>
 <img src="./assets/profile-experience-en.svg" width="100%" alt="Experience: Tencent — Solution Architect, CAS ISCAS — Distributed Systems, Shopee — Backend Developer, OPPO — Device SDK Developer." />
 
 ### Selected Projects
