@@ -13,7 +13,7 @@
 </p>
 
 <p>
-<img src="./assets/profile-tech-stack-en.svg" width="100%" alt="Tech Stack: Java, Kotlin, TypeScript, C#, Python, Rust; Spring, Redis, RabbitMQ, Bun, PyTorch, Blender." />
+<img src="./assets/profile-tech-stack-en-v2.svg" width="100%" alt="Tech Stack: Java, Kotlin, TypeScript, C#, Python, Rust; Spring, Redis, RabbitMQ, Bun, PyTorch, Blender." />
 </p>
 
 <p>
