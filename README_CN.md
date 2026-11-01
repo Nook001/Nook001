@@ -1,7 +1,7 @@
 <p align="right"><a href="./README.md">English</a> · <a href="./README_CN.md">简体中文</a></p>
 
-<a href="https://nook001.github.io/"><img src="./assets/profile-hero-zh-v2.svg" width="100%" alt="你好，我是 Nook。访问我的个人网站。" /></a>
-<img src="./assets/profile-experience-zh.svg" width="100%" alt="经历：腾讯解决方案架构师，中国科学院软件研究所分布式系统，Shopee 后端开发，OPPO 终端 SDK 开发。" />
+<a href="https://nook001.github.io/"><img src="./assets/profile-hero-zh-v3.svg" width="100%" alt="Nook — 访问 nook001.github.io" /></a>
+<img src="./assets/profile-experience-zh-v2.svg" width="100%" alt="经历：HKUST(GZ) 研究助理（2026.09–至今）；腾讯（2026.04–08）；中科院软件所（2026.01–04）；Shopee（2025.12–2026.04）；OPPO（2025.06–09）。" />
 
 ### 精选项目
 
