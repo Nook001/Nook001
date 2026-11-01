@@ -5,7 +5,7 @@
 
 ### Selected Projects
 
-<a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="https://i.ibb.co/39nW6b6d/fram.png" width="100%" alt="Dynamic Shader — Stardew Valley screenshot" /></a>
+<a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="https://staticdelivery.nexusmods.com/mods/1303/images/40775/40775-1769882982-506732031.jpg" width="100%" alt="Dynamic Shader — Stardew Valley screenshot" /></a>
 <a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="./assets/profile-dynamic-caption-en.svg" width="100%" alt="Dynamic Shader — real-time lighting and GPU rendering. 200K+ downloads." /></a>
 
 <table>
