@@ -3,7 +3,7 @@
 <a href="https://nook001.github.io/"><img src="./assets/profile-hero-en.svg" width="100%" alt="Hi, I'm Nook. Explore my website." /></a>
 <img src="./assets/profile-experience-en.svg" width="100%" alt="Experience: Tencent — Solution Architect, CAS ISCAS — Distributed Systems, Shopee — Backend Developer, OPPO — Device SDK Developer." />
 
-### Selected Projects
+<img src="./assets/profile-projects-heading-en.svg" width="100%" alt="Selected Projects" />
 
 <a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="https://images.weserv.nl/?url=i.ibb.co%2F39nW6b6d%2Ffram.png&w=1200&h=520&fit=cover&a=top" width="100%" alt="Dynamic Shader — Stardew Valley screenshot" /></a>
 <a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="./assets/profile-dynamic-caption-en.svg" width="100%" alt="Dynamic Shader — real-time lighting and GPU rendering. 200K+ downloads." /></a>
