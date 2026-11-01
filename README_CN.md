@@ -5,7 +5,7 @@
 
 ### 精选项目
 
-<a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="https://i.ibb.co/39nW6b6d/fram.png" width="100%" alt="Dynamic Shader — 星露谷物语效果展示" /></a>
+<a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="https://staticdelivery.nexusmods.com/mods/1303/images/40775/40775-1769882982-506732031.jpg" width="100%" alt="Dynamic Shader — 星露谷物语效果展示" /></a>
 <a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="./assets/profile-dynamic-caption-zh.svg" width="100%" alt="Dynamic Shader — 实时光照与 GPU 渲染，20 万+ 下载。" /></a>
 
 <table>
