@@ -13,6 +13,10 @@
 </p>
 
 <p>
+<img src="./assets/profile-tech-stack-zh.svg" width="100%" alt="技术栈：Java、Kotlin、TypeScript、C#、Python、Rust；Spring、Redis、RabbitMQ、Bun、PyTorch、Blender。" />
+</p>
+
+<p>
 <img src="./assets/profile-projects-heading-zh.svg" width="100%" alt="精选项目" />
 </p>
 
