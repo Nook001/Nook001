@@ -1,7 +1,7 @@
 <p align="right"><a href="./README.md">English</a> · <a href="./README_CN.md">简体中文</a></p>
 
 <img src="./assets/profile-hero-en-v4.svg" width="100%" alt="Nook — Warwick Computer Science, HKUST exchange" />
-<a href="https://nook001.github.io/"><img src="./assets/profile-cta-en.svg" width="100%" alt="Visit Nook's Corner — ideas, experiments and what I've learned" /></a>
+<a href="https://nook001.github.io/"><img src="./assets/profile-cta-en-v2.svg" width="100%" alt="Visit Nook's Corner — ideas, experiments and what I've learned" /></a>
 <img src="./assets/profile-experience-en-v2.svg" width="100%" alt="Experience: HKUST(GZ) Research Assistant (Sep 2026–Present); Tencent (Apr–Aug 2026); CAS ISCAS (Jan–Apr 2026); Shopee (Dec 2025–Apr 2026); OPPO (Jun–Sep 2025)." />
 
 ### Selected Projects
