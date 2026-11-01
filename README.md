@@ -1,22 +1,24 @@
 <p align="right"><a href="./README.md">English</a> · <a href="./README_CN.md">简体中文</a></p>
 
-<a href="https://nook001.github.io/">
-  <img src="./assets/profile-hero-en.svg" width="100%" alt="Nook — Yuanzhi Liu. Warwick CS, HKUST exchange. Visit my website." />
-</a>
+<a href="https://nook001.github.io/"><img src="./assets/profile-hero-en.svg" width="100%" alt="Hi, I'm Nook. Explore my website." /></a>
+<img src="./assets/profile-experience-en.svg" width="100%" alt="Experience: Tencent — Solution Architect, CAS ISCAS — Distributed Systems, Shopee — Backend Developer, OPPO — Device SDK Developer." />
 
-## Experience
+### Selected Projects
 
-| Organization | Role | Period |
-| --- | --- | --- |
-| **Tencent · CSIG** | Solution Architect | Apr – Aug 2026 |
-| **Chinese Academy of Sciences · ISCAS** | Distributed Systems Developer | Jan – Apr 2026 |
-| **Shopee · Digital Bank** | Backend Developer | Dec 2025 – Apr 2026 |
-| **OPPO** | Device SDK Developer | Jun – Sep 2025 |
+<a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="https://i.ibb.co/39nW6b6d/fram.png" width="100%" alt="Dynamic Shader — Stardew Valley screenshot" /></a>
+<a href="https://www.nexusmods.com/stardewvalley/mods/40775"><img src="./assets/profile-dynamic-caption-en.svg" width="100%" alt="Dynamic Shader — real-time lighting and GPU rendering. 200K+ downloads." /></a>
 
-## Selected Projects
-
-- **[Dynamic Shader ↗](https://www.nexusmods.com/stardewvalley/mods/40775)** — Real-time lighting and shadows for Stardew Valley. **200K+ downloads**.
-- **[MyWarwickPlus ↗](https://github.com/Nook001/MyWarwickPlus)** — A lightweight native Android client for Warwick students.
-- **[Qingyin ↗](https://github.com/Nook001/QingyinPlayer)** — A local Linux music player built with Rust and Qt.
-
-<sub>More about me, my work and my writing: **[nook001.github.io ↗](https://nook001.github.io/)**</sub>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Nook001/MyWarwickPlus"><img src="https://raw.githubusercontent.com/Nook001/MyWarwickPlus/master/docs/assets/readme/screenshots/home.jpg" width="100%" alt="MyWarwickPlus timetable" /></a>
+<br /><a href="https://github.com/Nook001/MyWarwickPlus"><strong>MyWarwickPlus</strong></a><br />
+<sub>A better mobile experience for Warwick students.</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Nook001/QingyinPlayer"><img src="https://raw.githubusercontent.com/Nook001/QingyinPlayer/main/assets/library.png" width="100%" alt="Qingyin music player" /></a>
+<br /><a href="https://github.com/Nook001/QingyinPlayer"><strong>Qingyin</strong></a><br />
+<sub>A lightweight Linux music player.</sub>
+</td>
+</tr>
+</table>
