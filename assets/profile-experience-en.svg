@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="302" viewBox="0 0 900 302" role="img">
+<title>Experience</title>
+<rect width="900" height="302" rx="12" fill="#101011"/>
+<g font-family="Inter, Noto Sans CJK SC, Microsoft YaHei, Arial, sans-serif">
+<text x="16" y="42" fill="#F4F4F5" font-size="24" font-weight="700">Experience</text>
+<text x="30" y="105" fill="#F4F4F5" font-size="20">Tencent</text><text x="30" y="136" fill="#C8C6C3" font-size="16">Solution Architect</text><text x="30" y="159" fill="#9D9B99" font-size="13">2026</text>
+<text x="475" y="105" fill="#F4F4F5" font-size="20">CAS · ISCAS</text><text x="475" y="136" fill="#C8C6C3" font-size="16">Distributed Systems</text><text x="475" y="159" fill="#9D9B99" font-size="13">2026</text>
+<text x="30" y="225" fill="#F4F4F5" font-size="20">Shopee</text><text x="30" y="256" fill="#C8C6C3" font-size="16">Backend Developer</text><text x="30" y="279" fill="#9D9B99" font-size="13">2025–26</text>
+<text x="475" y="225" fill="#F4F4F5" font-size="20">OPPO</text><text x="475" y="256" fill="#C8C6C3" font-size="16">Device SDK Developer</text><text x="475" y="279" fill="#9D9B99" font-size="13">2025</text>
+</g>
+</svg>
