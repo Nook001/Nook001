@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="126" viewBox="0 0 900 126" role="img">
+<title>Nook's Corner — 想法、实验与经验</title>
+<rect x="1" y="1" width="898" height="124" rx="14" fill="#181817" stroke="#34302E" stroke-width="2"/>
+<g font-family="Inter, Noto Sans CJK SC, Microsoft YaHei, Arial, sans-serif">
+<text x="30" y="30" fill="#F09A88" font-size="13" font-weight="700" letter-spacing="1.2">个人网站</text>
+<text x="30" y="70" fill="#ECECE8" font-size="30" font-weight="700">Nook's Corner</text>
+<text x="30" y="100" fill="#B7B1AD" font-size="17">想法、实验，以及一路积累的经验。</text>
+<circle cx="831" cy="62" r="28" fill="#3A1F1A"/>
+<path d="M821 72l20-20m-12 0h12v12" fill="none" stroke="#F09A88" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
