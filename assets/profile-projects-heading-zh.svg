@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="76" viewBox="0 0 900 76" role="img">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="62" viewBox="0 0 900 62" role="img">
 <title>精选项目</title>
-<rect width="900" height="76" rx="11" fill="#101011"/>
-<text x="16" y="54" fill="#F4F4F5" font-family="Inter, Noto Sans CJK SC, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700">精选项目</text>
+<rect width="900" height="62" rx="12" fill="#101011"/>
+<g fill="none" stroke="#A9AAA9" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M28 19 40 26 28 33 16 26Z"/><path d="m16 33 12 7 12-7m-24 7 12 7 12-7"/></g>
+<text x="50" y="42" fill="#F4F4F5" font-family="Inter, Noto Sans CJK SC, Microsoft YaHei, Arial, sans-serif" font-size="24" font-weight="700">精选项目</text>
 </svg>
