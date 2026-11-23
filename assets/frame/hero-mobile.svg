@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1000" viewBox="0 0 720 1000" role="img" aria-labelledby="t"><title id="t">Nook — Incoming PhD at HKUST; BSc CS, Warwick × HKUST joint degree; Render | Agent | System. Opens nook001.github.io.</title>
+<style>
+.d{stroke-dasharray:1;stroke-dashoffset:0;fill:none}
+.a1{animation:a1 9s linear infinite}.a2{animation:a2 9s linear infinite}
+.b1{animation:b1 9s linear infinite}.b2{animation:b2 9s linear infinite}
+.c1{animation:c1 9s linear infinite}
+@keyframes a1{0%{stroke-dashoffset:1}11%,95%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+@keyframes a2{0%,11%{stroke-dashoffset:1}22%,95%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+@keyframes b1{0%,33%{stroke-dashoffset:1}44%,95%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+@keyframes b2{0%,44%{stroke-dashoffset:1}55%,95%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+@keyframes c1{0%,66%{stroke-dashoffset:1}80%,95%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.pa{animation:pa 9s linear infinite}.pb{animation:pb 9s linear infinite}.pc{animation:pc 9s linear infinite}
+@keyframes pa{0%,23%{fill:var(--e);stroke:var(--k)}25%,95%{fill:var(--k);stroke:var(--k)}100%{fill:var(--e)}}
+@keyframes pb{0%,56%{fill:var(--e);stroke:var(--k)}58%,95%{fill:var(--s);stroke:var(--s)}100%{fill:var(--e)}}
+@keyframes pc{0%,80%{fill:var(--e);stroke:var(--k)}82%,95%{fill:var(--y);stroke:var(--y)}100%{fill:var(--e)}}
+.hx{animation:hx 9s linear infinite}@keyframes hx{0%,54%{opacity:0}56%,95%{opacity:1}100%{opacity:0}}
+.hp{animation:hp 9s linear infinite}@keyframes hp{0%,10%{opacity:0}11%,95%{opacity:1}100%{opacity:0}}
+.live{animation:live 1.6s ease-in-out infinite}@keyframes live{50%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="1" y="1" width="718" height="998" rx="10" fill="#FAFAF7" stroke="#D2D1CA" stroke-width="1.5"/>
+<path d="M1 60H719" stroke="#D2D1CA"/>
+<path d="M11 1H709a10 10 0 0 1 10 10V60H1V11a10 10 0 0 1 10-10z" fill="#F0F0EB"/>
+<circle class="live" cx="28" cy="30.0" r="6" fill="#C2402A"/>
+<text x="44" y="37.9" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="22" fill="#141414">FRAME 0426<tspan fill="#66665F">  ·  path tracing</tspan></text>
+<text x="696" y="37.9" text-anchor="end" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="22" fill="#66665F">64 spp</text>
+
+<text x="40" y="178" font-family="Georgia,'Times New Roman','Noto Serif SC',serif" font-size="104" fill="#141414">Nook.</text>
+<text x="44" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="34" fill="#C2402A">Incoming PhD · HKUST</text>
+<text x="44" y="286" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="29" fill="#66665F">BSc CS · Warwick × HKUST</text>
+<text x="44" y="344" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="28" fill="#141414">Render<tspan fill="#8C8C83">  |  </tspan>Agent<tspan fill="#8C8C83">  |  </tspan>System</text>
+<g transform="translate(40 384) scale(1.988) translate(-300 -18)">
+<rect x="300" y="18" width="322" height="264" rx="4" fill="#F4F3EE" stroke="#E8E7E1"/>
+<path d="M340 18V236M380 18V236M420 18V236M460 18V236M500 18V236M540 18V236M580 18V236M620 18V236M300 58H622M300 98H622M300 138H622M300 178H622M300 218H622" stroke="#E8E7E1" stroke-width="0.6"/>
+<path d="M300 236H622" stroke="#D2D1CA" stroke-width="1.2"/>
+<path d="M312 236l-8 8M332 236l-8 8M352 236l-8 8M372 236l-8 8M392 236l-8 8M412 236l-8 8M432 236l-8 8M452 236l-8 8M472 236l-8 8M492 236l-8 8M512 236l-8 8M532 236l-8 8M552 236l-8 8M572 236l-8 8M592 236l-8 8M612 236l-8 8" stroke="#E8E7E1"/>
+<rect x="476" y="36" width="44" height="4" fill="#9A7B1E"/>
+<circle cx="490" cy="168" r="32" fill="#FFFFFF" stroke="#66665F"/>
+<path d="M472 152a22 22 0 0 1 14-10" stroke="#66665F" stroke-width="1.5" fill="none" opacity="0.5"/>
+<path d="M322 138l14 8-14 8z" fill="#141414"/>
+<path d="M346 126V170" stroke="#D2D1CA"/>
+<path class="d a1" pathLength="1" d="M336 146L462 152" stroke="#141414" stroke-width="1.4"/>
+<path class="d a2" pathLength="1" d="M462 152L392 46" stroke="#C2402A" stroke-width="1.4"/>
+<path class="d a2" pathLength="1" d="M462 152L498 40" stroke="#9A7B1E" stroke-width="1"/>
+<circle class="hp" cx="462" cy="152" r="2.6" fill="#141414"/>
+<path class="d b1" pathLength="1" d="M336 146L436 236" stroke="#141414" stroke-width="1.4"/>
+<path class="d b2" pathLength="1" d="M436 236L461 183" stroke="#9A7B1E" stroke-width="1"/>
+<path class="hx" d="M456 178l10 10M466 178l-10 10" stroke="#C2402A" stroke-width="1.6"/>
+<path class="d c1" pathLength="1" d="M336 146L622 108" stroke="#A8A79F" stroke-width="1.2"/>
+<g transform="translate(548 28)" style="--e:#FFFFFF;--k:#C2402A;--s:#A8A79F;--y:#EDEDE7">
+<rect width="64" height="64" fill="#FFFFFF" stroke="#D2D1CA"/>
+<rect x="24" y="16" width="8" height="8" fill="#E9A898"/><rect x="32" y="16" width="8" height="8" fill="#E9A898"/><rect x="16" y="24" width="8" height="8" fill="#E9A898"/><rect x="24" y="24" width="8" height="8" fill="#E9A898"/><rect x="32" y="24" width="8" height="8" fill="#E9A898"/><rect x="40" y="24" width="8" height="8" fill="#E9A898"/><rect x="16" y="32" width="8" height="8" fill="#E9A898"/><rect x="40" y="32" width="8" height="8" fill="#E9A898"/><rect x="24" y="40" width="8" height="8" fill="#E9A898"/><rect x="0" y="48" width="8" height="8" fill="#DAD9D2"/><rect x="8" y="48" width="8" height="8" fill="#DAD9D2"/><rect x="40" y="48" width="8" height="8" fill="#DAD9D2"/><rect x="48" y="48" width="8" height="8" fill="#DAD9D2"/><rect x="56" y="48" width="8" height="8" fill="#DAD9D2"/><rect x="0" y="56" width="64" height="8" fill="#DAD9D2"/>
+<rect class="pa" x="24" y="32" width="8" height="8" fill="#C2402A" stroke="#C2402A"/>
+<rect class="pb" x="16" y="48" width="8" height="8" fill="#A8A79F" stroke="#A8A79F"/>
+<rect class="pc" x="48" y="8" width="8" height="8" fill="#EDEDE7" stroke="#EDEDE7"/>
+</g></g>
+
+<rect x="40" y="924" width="48" height="48" rx="8" fill="none" stroke="#D2D1CA"/>
+<text x="64" y="958" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="26" fill="#C2402A">↗</text>
+<text x="104" y="952" font-family="'Cascadia Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="24" fill="#141414">nook001.github.io</text>
+<text x="104" y="980" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei','Noto Sans SC',sans-serif" font-size="21" fill="#66665F">Tap to visit my website</text>
+</svg>
