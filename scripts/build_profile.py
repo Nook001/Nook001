@@ -312,7 +312,7 @@ def background(t: dict, mobile: bool) -> str:
 # Full-size Dynamic Shader stage captures (≈9 MB) live in the git-excluded preview
 # folder; the committed SVGs already embed compressed copies.
 SHOTS = REPO / ".profile-preview" / "sources" / "dynamic-shader-stages"
-# 16:10 project screenshots (built by .profile-preview/build_v3.py), kept out of git
+# 16:10 project screenshots (560x350 crops are made below), kept out of git
 V3 = REPO / ".profile-preview" / "sources" / "project-shots"
 
 
